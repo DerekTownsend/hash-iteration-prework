@@ -11,7 +11,7 @@ def select_winner(passengers)
   winner=""
   passengers.each do |key,value|
     puts "Happy Birthday #{key}! You are now #{value} years old!"
-    if key==suite_a and value[0]=="A"
+    if key==suite_a and value[0]==="A"
       winner=value
     end
   end
